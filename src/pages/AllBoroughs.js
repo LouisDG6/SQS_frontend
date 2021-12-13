@@ -9,7 +9,6 @@ const AllSpaces = (props) => {
     // for each space in the array, render a space component
 
     
-    
     return <>
     <Carousel carouselImgs={CarouselData}/>
     { props.borough.map((borough) => {

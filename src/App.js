@@ -90,7 +90,7 @@ function App() {
       body: JSON.stringify(sqs),
     });
 
-    //update our todos
+    //update our sqss
     getSqss();
   };
   
@@ -121,9 +121,9 @@ function App() {
         <Route path="/" element={<AllBoroughs borough ={spaces}/>}/>
         <Route path="/borough/:borough" element={<SingleBorough spaces={spaces}/> }/>
         <Route path="/space/:id" element={<SingleSpace 
-        space={spaces} 
+        spaces={spaces} 
         edit={getTargetSqs}
-        deleteTodo={deleteSqs}
+        deleteSqs={deleteSqs}
         />} />
         <Route path="/new" element={<Form 
           initialSqs={nullSqs}

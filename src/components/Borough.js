@@ -13,7 +13,7 @@ const Borough = ({ borough }) => {
   };
   return (
     <div style={div}>
-        <Link to={`/${borough.borough}`}>
+        <Link to={`/borough/${borough.borough}`}>
             <h1 className="AllBoroughs">{borough.borough}</h1>
         </Link>
     </div>

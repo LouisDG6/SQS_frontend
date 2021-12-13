@@ -5,16 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("https://www.desktopbackground.org/download/1600x1200/2014/06/03/772369_wallpapers-black-rainbow-digital-rainbow_1920x1200_h.jpg");
+  background: url("https://i.imgur.com/4bmcoH1.png");
 }
 
 .AllBoroughs {
-  color: yellow;
-  background-color: purple;
+  color: black;
+  background-color: white;
+}
+
+button {
+  background-color: red;
 }
 
 .bottom {
-  background-color: purple;
+  background-color: white;
   margin: 50px;
   padding: 2px 2px;
   color: yellow;
@@ -38,7 +42,7 @@ body {
   width: 70%;
   height: 60%;
   border-radius: 10px;
-  border: 10px solid purple;
+  border: 10px solid orange;
 }
 
 .left-arrow {
