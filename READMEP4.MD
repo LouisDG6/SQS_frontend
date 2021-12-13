@@ -1,11 +1,16 @@
 # SQS Project
+
+## Summary
+This app is a tracker of all safe spaces for LGBTQ people within the city of NY. Listing each space by borough and describing it for users, as well as informing the user as to where the space is located. Events and organizations will be added in order to assist users with tracking LGBTQ events and organizations.
+
 ## Route Table
 
 | Route         | Description   | 
 | ------------- | -------------:| 
-| Index      | A list of all spaces |
-| New | Creating a spaces |
-| Show      | Updating and deleting spaces |
+| Index      | A list of all boroughs |
+| Index 2     | A list of all spaces within a borough |
+| New | Creating a space |
+| Show      | Updating and deleting space |
 
 ## Components 
 
