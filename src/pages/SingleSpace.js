@@ -26,8 +26,8 @@ const SingleSpace = ({spaces, props, edit, deleteSqs}) => {
     } else {
         return <div>
         <Space space={space}/>
-        <button onClick={() =>edit(space)}></button>
-        <button onClick={() =>deleteSqs(space)}></button>
+        <button onClick={() =>edit(space)}>Edit</button>
+        <button onClick={() =>deleteSqs(space)}>Delete</button>
         </div>
     }
    

@@ -8,9 +8,16 @@ body {
   background: url("https://i.imgur.com/4bmcoH1.png");
 }
 
+h1 {
+  
+}
+
 .AllBoroughs {
   color: black;
   background-color: white;
+}
+a {
+  margin: 20px;
 }
 
 button {
@@ -18,15 +25,20 @@ button {
 }
 
 .bottom {
-  background-color: white;
+  background-color: black;
   margin: 50px;
   padding: 2px 2px;
-  color: yellow;
+  color: rgb(176, 6, 176);
   border-radius: 50%;
 }
 
 .logos{
-  color: yellow;
+  color: black;
+  font-size: 30px;
+}
+
+h1 {
+  background-color: black;
 }
 
 .carousel {

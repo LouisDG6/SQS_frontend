@@ -15,7 +15,7 @@ const Space = ({ space }) => {
   return (
     <div style={div}>
       <Link to={`/space/${space.id}`}>
-        <h1>{space.borough}</h1>
+      <h1>{space.borough}</h1>
       </Link>
       <h2>{space.name}</h2>
       <h2>{space.section}</h2>
