@@ -5,9 +5,77 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("https://www.desktopbackground.org/download/1600x1200/2014/06/03/772369_wallpapers-black-rainbow-digital-rainbow_1920x1200_h.jpg");
+}
+
+.AllBoroughs {
+  color: yellow;
+  background-color: purple;
+}
+
+.bottom {
+  background-color: purple;
+  margin: 50px;
+  padding: 2px 2px;
+  color: yellow;
+  border-radius: 50%;
+}
+
+.logos{
+  color: yellow;
+}
+
+.carousel {
+  margin: 70px;
+  position: relative;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselImage {
+  width: 70%;
+  height: 60%;
+  border-radius: 10px;
+  border: 10px solid purple;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.carouselItems {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.carouselItems.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
