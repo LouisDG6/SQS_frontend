@@ -33,7 +33,12 @@
 ## Component Tree
       - Form
 - App - AllBoroughs - SingleBorough - SingleSpace
-      
+
+## Challenges
+- Adding the extra page and making it fully functional
+- Getting the first index page to relay only boroughs once
+- Getting the second index page to display only the bar names
+- Connecting the edit and delete properly to the final show page
 
 ## Bibliography
 
