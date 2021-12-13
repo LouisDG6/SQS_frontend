@@ -5,11 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url("https://i.imgur.com/4bmcoH1.png");
+  background: url("https://i.imgur.com/upaKCCk.png");
+  background-repeat: repeat-x;
 }
 
 h1 {
-  
+
 }
 
 .AllBoroughs {
